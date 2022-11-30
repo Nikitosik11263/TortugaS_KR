@@ -19,6 +19,7 @@
         <Frame Grid.RowSpan="2" Foreground="{x:Null}" >
             <Frame.Background>
                 <SolidColorBrush 
+                    
                     Color="#FF161853" 
                     Opacity="0.8"/>
             </Frame.Background>
