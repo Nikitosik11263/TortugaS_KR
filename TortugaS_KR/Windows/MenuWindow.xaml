@@ -18,7 +18,9 @@
         </Grid.ColumnDefinitions>
         <Frame Grid.RowSpan="2" Foreground="{x:Null}" >
             <Frame.Background>
-                <SolidColorBrush Color="#FF161853" Opacity="0.8"/>
+                <SolidColorBrush 
+                    Color="#FF161853" 
+                    Opacity="0.8"/>
             </Frame.Background>
 
         </Frame>
@@ -69,7 +71,8 @@
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
                     Content="Супы"
-                    Margin="10" Click="btnSoup_Click" FontFamily="Microsoft JhengHei"
+                    Margin="10" Click="btnSoup_Click" 
+                    FontFamily="Microsoft JhengHei"
                         >
             </Button>
             <Button x:Name="btnHotDishies"
@@ -155,7 +158,9 @@
             Margin="20"
             CornerRadius="20">
             <Border.Background>
-                <SolidColorBrush Color="#FF161853" Opacity="0.8"/>
+                <SolidColorBrush 
+                    Color="#FF161853" 
+                    Opacity="0.8"/>
             </Border.Background>
 
             <Grid>
@@ -179,7 +184,8 @@
                 VerticalContentAlignment="Center"
                 Click="btnOrder_Click"
                 Style="{StaticResource ButtonStyle1}"
-                Background="#FFB2AEDD" BorderBrush="{x:Null}">
+                Background="#FFB2AEDD" 
+                BorderBrush="{x:Null}">
                     <Image  Source="/Images\Cart.png"/>
                 </Button>
 
@@ -200,7 +206,9 @@
             Grid.Row="1"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Left"
-            Margin="20" BorderBrush="{x:Null}" Foreground="{x:Null}"
+            Margin="20" 
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}"
             Height="30"
             Width="40" 
             RenderTransformOrigin="0.5,0.5" 
